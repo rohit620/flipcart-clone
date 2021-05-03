@@ -1,0 +1,30 @@
+@media screen and (max-width:790px) {
+ 
+
+ li {
+    
+    padding: 19px 9px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    height: 128px;
+    background-color: #2874f0;
+    color: #b5cef5;
+    font-family: 'Hind Siliguri', sans-serif;
+    /* font-family: 'Hind Siliguri', sans-serif; */
+
+}
+.logo img {
+    height: 17px;
+    margin: 29px 17px;
+    padding: 36px 0px;
+}
+}
+/* body{
+    background-color: red;
+} */
