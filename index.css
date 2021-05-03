@@ -1,0 +1,151 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400&display=swap');
+
+
+        .logo img {
+            height: 25px;
+            margin: 25px;
+        }
+
+        header {
+            display: flex;
+            height: 80px;
+            background-color: #2874f0;
+            color: #b5cef5;
+            font-family: 'Hind Siliguri', sans-serif;
+            /* font-family: 'Hind Siliguri', sans-serif; */
+
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+
+
+        }
+
+        li {
+            list-style: none;
+            padding: 0 7px;
+        }
+
+        .search input {
+            width: 30vw;
+            height: 35px;
+            border-radius: 5px;
+            margin: 3px 0 0;
+            padding: 0 12px;
+        }
+
+        footer {
+            background-color: #2874f0;
+            color: #b5cef5;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            min-height: calc(100vh - 80px - 70px);
+            background-color: #f1f3f6;
+            
+        }
+
+        footer:hover {
+            cursor: pointer;
+            color: #fff;
+        }
+
+        li a {
+            color: #b5cef5;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            color: #fff;
+
+        }
+
+        .search {
+            display: flex;
+
+        }
+
+        nav img:hover {
+            cursor: pointer;
+            color: #fff;
+
+        }
+
+        .btn {
+
+            margin: 3px;
+            width: 90px;
+            height: 35px;
+            border-radius: 3px;
+        }
+
+        .img {
+            position: absolute;
+            margin: 1em 30vw;
+        }
+
+        .btn:hover {
+            background-color: #2874f0;
+            color: #fff;
+        }
+
+        .slider {
+            display: flex;
+            margin: auto;
+            width: 83vw;
+            margin: 1vw auto;
+        }
+
+        .card {
+
+            max-width: 83vw;
+            margin: 33px auto;
+            overflow: hidden;
+            /* overflow: scroll; we can also make scroll instade of hidden */
+        }
+
+        .my-2 {
+            margin: 26px 0;
+        }
+
+        .card-item {
+            display: inline-flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 25px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .my-1 {
+            margin: 7px 0;
+        }
+        .cards{
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+          
+        }
+      .slider img{
+          max-width: 100%;
+      }
+        
