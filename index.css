@@ -117,7 +117,7 @@
 
             max-width: 83vw;
             margin: 33px auto;
-            overflow: hidden;
+            overflow: scroll;
             /* overflow: scroll; we can also make scroll instade of hidden */
         }
 
