@@ -1,7 +1,5 @@
 @media screen and (max-width:790px) {
- 
-
- li {
+ li{
     
     padding: 19px 9px;
 }
@@ -25,6 +23,3 @@ header {
     padding: 36px 0px;
 }
 }
-/* body{
-    background-color: red;
-} */
